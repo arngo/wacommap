@@ -42,3 +42,8 @@ This command enables maintaining aspect ratio with the "width" option, and cente
 ```sh
 wacommap -m width -c
 ```
+
+## To do list
+
+- Make it work with non wacom tablets
+- More alignment options e.g. top, bottom, right, left
