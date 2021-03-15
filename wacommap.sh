@@ -79,9 +79,4 @@ if [[ $center -eq 1 ]]; then
     Y=$((Y+diffH/2))
 fi
 
-echo ${W}x${H}
-echo $X+$Y
-echo ${mapwidth}x${mapheight}
-echo $X+$Y
-
 xsetwacom set $device MapToOutput ${mapwidth}x${mapheight}+$X+$Y
